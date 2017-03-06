@@ -1,7 +1,7 @@
 # xmonad-configuration
 Configuration files for my xmonad configuration.
 
-This configuration is based off of this configuration (http://beginners-guide-to-xmonad.readthedocs.io/).
+This configuration is based off of this configuration [http://beginners-guide-to-xmonad.readthedocs.io/](http://beginners-guide-to-xmonad.readthedocs.io/).
 
 # Installation
 Execute the following command to install all of the needed components on Ubuntu:
@@ -37,5 +37,6 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 
 # Other Helpful Links
 
+- [Xmonad Tutorial Beginning Beginners](http://beginners-guide-to-xmonad.readthedocs.io/)
 - [HowToGeek Tutorial](https://www.howtogeek.com/114728/how-to-use-xmonad-a-tiling-window-manager-for-linux/)
 - [Xmonad a Guided Tour](http://xmonad.org/tour.html)
