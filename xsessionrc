@@ -1,0 +1,26 @@
+#!/bin/bash
+
+background=/home/kmidkiff/Pictures/cropped-3840-2160-84316.jpg
+
+# Load resources
+
+xrdb -merge .Xresources
+
+# Set up an icon tray
+stalonetray &
+
+# Fire up apps
+
+xscreensaver -no-splash &
+
+# Set background image with feh
+feh --bg-scale $background &
+
+# Start udiskie to handle media
+udiskie &
+
+if [ -x /usr/bin/nm-applet ] ; then
+   nm-applet --sm-disable &
+fi
+
+exec xmonad
