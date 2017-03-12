@@ -61,6 +61,10 @@ By default Java based GUI applications do not enable using a tiling window manag
 _JAVA_AWT_WM_NONREPARENTING=1
 ```
 
+# Sleep on Lid Close
+**TODO:** Finish documenting section
+ - http://www.linuxquestions.org/questions/slackware-14/current-how-to-suspend-when-closing-the-lid-on-the-laptop-4175586386/
+
 # Other Helpful Links
 
 - [Xmonad Tutorial Beginning Beginners](http://beginners-guide-to-xmonad.readthedocs.io/)
