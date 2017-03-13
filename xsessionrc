@@ -24,3 +24,6 @@ if [ -x /usr/bin/nm-applet ] ; then
 fi
 
 exec xmonad
+
+./change-screens.sh
+
