@@ -1,6 +1,6 @@
 #!/bin/bash
 
-background=/home/kmidkiff/Pictures/cropped-3840-2160-84316.jpg
+background="/home/kevin/GoogleDrive/Background\ Images/lord-of-the-ring-rings-maps-middle-earth-x-3184659.jpg"
 
 # Load resources
 
