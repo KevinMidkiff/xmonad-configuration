@@ -1,6 +1,6 @@
 #!/bin/bash
 
-background="/home/kevin/GoogleDrive/Background\ Images/lord-of-the-ring-rings-maps-middle-earth-x-3184659.jpg"
+# background="/home/kevin/GoogleDrive/Background\ Images/lord-of-the-ring-rings-maps-middle-earth-x-3184659.jpg"
 
 # Load resources
 
@@ -14,7 +14,9 @@ stalonetray &
 xscreensaver -no-splash &
 
 # Set background image with feh
-feh --bg-scale $background &
+if [ -f $BACKGROUND ] ; then
+    feh --bg-scale $BACKGROUND &
+fi
 
 # Start udiskie to handle media
 udiskie &
@@ -24,6 +26,4 @@ if [ -x /usr/bin/nm-applet ] ; then
 fi
 
 ssh-agent xmonad
-
-./change-screens.sh
 

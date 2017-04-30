@@ -7,9 +7,9 @@ import System.IO
 
 main = do
     xmproc <- spawnPipe "xmobar"
-
     xmonad $ defaultConfig
-        { manageHook = manageDocks <+> manageHook defaultConfig
+        { workspaces = ["main", "term", "web", "other"]
+        , manageHook = manageDocks <+> manageHook defaultConfig
         , layoutHook = avoidStruts  $  layoutHook defaultConfig
         , logHook = dynamicLogWithPP xmobarPP
                         { ppOutput = hPutStrLn xmproc
