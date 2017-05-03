@@ -1,4 +1,4 @@
-Config { font = "-*-Fixed-Bold-R-Normal-*-12-*-*-*-*-*-*-*"
+Config { font = "xft:Ubuntu Mono derivative Powerline:size=12:style=Regular" 
         , borderColor = "black"
         , border = TopB
         , bgColor = "black"
@@ -14,6 +14,6 @@ Config { font = "-*-Fixed-Bold-R-Normal-*-12-*-*-*-*-*-*-*"
                         ]
         , sepChar = "%"
         , alignSep = "}{"
-        , template = " %whoami% | %StdinReader% }{ <fc=#888888><fc=#6b2c74><icon=.xmonad/icons/down.xbm/></fc><fc=#88591b><icon=.xmonad/icons/up.xbm/></fc>  %dynnetwork%  <fc=#2c4b50><icon=.xmonad/icons/cpu.xbm/></fc> %multicpu%   <fc=#366136><icon=.xmonad/icons/mem.xbm/></fc> %memory%</fc>   %date%  "
+        , template = " %whoami% | %StdinReader% }{ <fc=#888888><fc=#6b2c74><icon=.xmonad/icons/down.xbm/></fc><fc=#88591b><icon=.xmonad/icons/up.xbm/></fc>  %dynnetwork% <fc=#2c4b50><icon=.xmonad/icons/cpu.xbm/></fc> %multicpu%   <fc=#366136><icon=.xmonad/icons/mem.xbm/></fc> %memory%</fc>   %date%  "
         }
 
