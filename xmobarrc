@@ -16,6 +16,6 @@ Config { font = "xft:Ubuntu Mono derivative Powerline:size=12:style=Regular"
                         ]
         , sepChar = "%"
         , alignSep = "}{"
-        , template = "<fc=#272a2b,#48a849> %whoami% </fc><fc=grey,#161819> %StdinReader% </fc> }{  %dynnetwork%   <fc=#2c4b50><icon=.xmonad/icons/cpu.xbm/></fc> %multicpu%   <fc=#366136><icon=.xmonad/icons/mem.xbm/></fc> %memory%</fc>  |  <fc=#a34d2c>%date%</fc>  "
+        , template = "<fc=#272a2b,#48a849> %whoami% </fc> %StdinReader% }{  %dynnetwork%   <fc=#2c4b50><icon=.xmonad/icons/cpu.xbm/></fc> %multicpu%   <fc=#366136><icon=.xmonad/icons/mem.xbm/></fc> %memory%</fc>  |  <fc=#a34d2c>%date%</fc>  "
         }
 

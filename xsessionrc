@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# background="/home/kevin/GoogleDrive/Background\ Images/lord-of-the-ring-rings-maps-middle-earth-x-3184659.jpg"
+BACKGROUND="/home/kevin/Pictures/millennium_falcon_wallpaper_by_theadamtaylor-d9spn6b.png"
 
 # Load resources
 
@@ -14,9 +14,9 @@ stalonetray &
 xscreensaver -no-splash &
 
 # Set background image with feh
-if [ -f $BACKGROUND ] ; then
+# if [ -f $BACKGROUND ] ; then
     feh --bg-scale $BACKGROUND &
-fi
+# fi
 
 # Start udiskie to handle media
 udiskie &
